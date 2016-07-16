@@ -1,0 +1,21 @@
+{
+  "name": "testBootstrap",
+  "description": "This project is a sample application demonstrating a more fully developed realistic single page angular application.",
+  "main": "index.js",
+  "authors": [
+    "Joe Eames & Jim Cooper"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
