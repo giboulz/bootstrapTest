@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 */
-app.use(express.static( rootPath ));
+app.use(express.static( rootPath +'/exo'));
 /*
 app.get('/data/event/:id', events.get);
 app.get('/data/event', events.getAll);
